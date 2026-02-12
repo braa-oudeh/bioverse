@@ -44,4 +44,4 @@ jobs:
         # Install pytest explicitly if not in requirements.txt
         pip install pytest pytest-cov
         # Run tests and generate coverage report
-        pytest --cov=bioverse --cov-report=xml tests/
+        pytest --cov=bioverse --cov-report=xml
